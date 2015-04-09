@@ -43,10 +43,13 @@ describe('Buraco em Letras', function(){
     assert.equal(buracoEmLetras('BAC'), 3);
   })
 
-   it('deve retornar 3 quando passar bac', function(){
-     assert.equal(buracoEmLetras('bac'), 3);
-   })
+  it('deve retornar 3 quando passar bac', function(){
+    assert.equal(buracoEmLetras('bac'), 3);
+  })
 
+  it('Deve retornar 0 quando for vazio', function() {
+    assert.equal(buracoEmLetras(''),0);
+  })
 
 
 })
