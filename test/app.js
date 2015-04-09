@@ -3,10 +3,10 @@ var assert = require("assert");
 //Resolva o problema
 function buracoEmLetras(caracteres){
 	var count = 0;
-	var valem1 = ['A', 'D', 'O', 'Q', 'P', 'R'];
+	var valem1 = ['A', 'D', 'O', 'Q', 'P', 'R', 
+    'a', 'b', 'd', 'e', 'o', 'p', 'q'];
 	var valem2 = ['B'];
 
-  caracteres  =  caracteres.toUpperCase();
 	for (var i = 0; i < caracteres.length; i++){
     if(valem1.indexOf(caracteres.charAt(i)) != -1){
       count +=1;
@@ -43,8 +43,8 @@ describe('Buraco em Letras', function(){
     assert.equal(buracoEmLetras('BAC'), 3);
   })
 
-  it('deve retornar 3 quando passar bac', function(){
-    assert.equal(buracoEmLetras('bac'), 3);
+  it('deve retornar 2 quando passar bac', function(){
+    assert.equal(buracoEmLetras('bac'), 2);
   })
 
   it('Deve retornar 0 quando for vazio', function() {
