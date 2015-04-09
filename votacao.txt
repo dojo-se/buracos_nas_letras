@@ -1,0 +1,8 @@
+
+
+
+
+FizzBuzz	||||
+Contando linhas	|
+Anagramas	|
+Buracos		|||||
