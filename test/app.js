@@ -51,6 +51,10 @@ describe('Buraco em Letras', function(){
     assert.equal(buracoEmLetras(''),0);
   })
 
+  it('Deve retornar 0 quando for somente espaços', function() {
+    assert.equal(buracoEmLetras('    '),0);
+  })
+
 
 })
 
