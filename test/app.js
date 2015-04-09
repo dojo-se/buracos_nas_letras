@@ -19,6 +19,9 @@ describe('Buraco em Letras', function(){
   it('deve retornar 2 quando passar AD', function(){
     assert.equal(buracoEmLetras('AD'), 2);
   })
+  it('deve retornar 0 quando passar E', function(){
+    assert.equal(buracoEmLetras('E'), 0);
+  })
 })
 
 exports.buracoEmLetras = buracoEmLetras;
