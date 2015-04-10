@@ -27,7 +27,7 @@ describe('#buracoEmLetras', function() {
     })
   })
 
-  context('Quando passar B', function() {
+  context('Quando passar AD', function() {
     it('deve retornar 2', function() {
       assert.equal(buracoEmLetras('AD'), 2);
     })
