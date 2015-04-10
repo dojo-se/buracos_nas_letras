@@ -1,7 +1,4 @@
-
-
-
-
+Problemas:
 FizzBuzz	||||
 Contando linhas	|
 Anagramas	|
